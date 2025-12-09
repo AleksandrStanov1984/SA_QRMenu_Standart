@@ -12,7 +12,7 @@ async function loadComponent(id, path) {
 document.addEventListener("DOMContentLoaded", async () => {
     await Promise.all([
         loadComponent("header", "components/header.html"),
-        loadComponent("drawer", "components/drawer.html"),
+        loadComponent("drawerRoot", "components/drawer.html"),
         loadComponent("modalContainer", "components/modal.html"),
         loadComponent("footer", "components/footer.html")
     ]);

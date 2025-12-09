@@ -86,16 +86,23 @@ function renderCategoryNav() {
 
 function renderDrawer() {
     const drawerBody = document.getElementById("drawerBody");
-    if (!drawerBody) return;
+
+    // Если drawer ещё не загружен – выходим
+    if (!drawerBody || !categoriesConfig || !categoriesLang) {
+        console.warn("Drawer not ready — waiting for components...");
+        return;
+    }
 
     drawerBody.innerHTML = "";
 
     categoriesConfig.categories.forEach((cat) => {
-        const name = categoriesLang.categories[cat.id]?.name || cat.id;
+        const translatedName =
+            categoriesLang.categories?.[cat.id]?.name || cat.id;
 
+        // Основной пункт
         const btn = document.createElement("a");
         btn.className = "drawer-item";
-        btn.innerHTML = `<span>${name}</span>`;
+        btn.innerHTML = `<span>${translatedName}</span>`;
 
         btn.addEventListener("click", () => {
             scrollToCategory(cat.id);
@@ -104,14 +111,16 @@ function renderDrawer() {
 
         drawerBody.appendChild(btn);
 
-        if (cat.id === "bar") {
+        // Если категория — BAR → добавляем подкатегории
+        if (cat.id === "bar" && cat.subcategories?.length) {
             const sublist = document.createElement("div");
             sublist.className = "drawer-sublist";
 
             cat.subcategories.forEach((subId) => {
                 const subBtn = document.createElement("a");
                 subBtn.className = "drawer-subitem";
-                subBtn.textContent = categoriesLang.barSubcategories[subId];
+                subBtn.textContent =
+                    categoriesLang.barSubcategories?.[subId] || subId;
 
                 subBtn.addEventListener("click", () => {
                     scrollToSubcategory(subId);

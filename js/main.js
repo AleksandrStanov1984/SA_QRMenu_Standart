@@ -28,23 +28,29 @@ function initBurger() {
     const backdrop = document.getElementById("drawerBackdrop");
     const close = document.getElementById("drawerClose");
 
-    // Если компонент ещё не загружен → ждём
-    if (!btn || !drawer || !backdrop) {
+    if (!btn || !drawer || !backdrop || !close) {
         console.warn("Burger not ready, retrying...");
-        setTimeout(initBurger, 100);
+        setTimeout(initBurger, 120);
         return;
     }
 
-    btn.onclick = () => {
+    const openDrawer = () => {
         drawer.classList.add("active");
         backdrop.classList.add("active");
     };
 
-    close.onclick = backdrop.onclick = () => {
+    const closeDrawer = () => {
         drawer.classList.remove("active");
         backdrop.classList.remove("active");
     };
+
+    btn.onclick = openDrawer;
+    close.onclick = closeDrawer;
+    backdrop.onclick = closeDrawer;
 }
+
+
+
 
 
 

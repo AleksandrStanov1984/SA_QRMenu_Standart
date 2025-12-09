@@ -32,23 +32,24 @@
 
 .dish-modal__content {
     position: absolute;
+    inset: auto 0 0 0;
     bottom: 0;
     left: 0;
     width: 100%;
-    max-height: 90vh;
+    max-height: 92vh;
 
-    background: rgba(255,255,255,0.9);
-    backdrop-filter: blur(16px);
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(18px) brightness(0.85);
 
-    border-radius: 28px 28px 0 0;
+    border-radius: 24px 24px 0 0;
     padding-bottom: 20px;
-    overflow-y: auto;
-
-    animation: modalSlideUp 0.26s cubic-bezier(.25,.8,.25,1);
+    overflow: hidden;
+    animation: modalSlideUp 0.18s ease-out;
 }
 
 body.theme-dark .dish-modal__content {
-    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(20px) brightness(0.65);
+    color: #f1f5f9;
 }
 
 @keyframes modalSlideUp {
@@ -195,3 +196,23 @@ body.theme-dark .label {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+.dish-modal__image-wrap {
+    background: url("../resources/assets/images/bg_day.png") center/cover;
+    filter: brightness(0.9);
+}
+
+body.theme-dark .dish-modal__image-wrap {
+    background: url("../resources/assets/images/bg_night.png") center/cover;
+    filter: brightness(0.6);
+}
+
+.dish-modal__image-wrap--fallback {
+    background: radial-gradient(circle at top, #d9d9d9, #bfbfbf);
+}
+
+body.theme-dark .dish-modal__image-wrap--fallback {
+    background: radial-gradient(circle at top, #262626, #0f0f0f);
+}
+
+
