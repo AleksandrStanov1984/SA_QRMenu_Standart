@@ -1,0 +1,53 @@
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Node (если вдруг появится) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Logs ---
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+
+# --- Build / cache ---
+dist/
+cache/
+out/
+coverage/
+*.cache
+
+# --- IDE / Editors ---
+.vscode/
+.vscode-test/
+.idea/
+*.iml
+
+# --- Python server artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Local server output ---
+*.qr.png
+*.qr.jpg
+
+# --- Compiled / generated files ---
+*.exe
+*.dll
+*.class
+
+# --- System trash ---
+ehthumbs.db
+Desktop.ini
+
+# --- Other ---
+*.swp
+*.swo
+*.bat
