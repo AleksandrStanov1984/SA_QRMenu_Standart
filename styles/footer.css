@@ -31,10 +31,10 @@ body.theme-dark .footer {
 }
 
 .footer__socials img {
-    width: 22px;
+    width: 34px;
     height: 22px;
 
-    opacity: 0.75;
+    opacity: 1;
     transition: opacity 0.18s ease, transform 0.18s ease;
 }
 

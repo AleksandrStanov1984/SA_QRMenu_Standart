@@ -11,9 +11,27 @@ body.theme-light {
     background: url("../resources/assets/images/bg_day.png") center/cover fixed no-repeat;
 }
 
+body.theme-light::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.35);
+    pointer-events: none;
+}
+
+
 body.theme-dark {
     background: url("../resources/assets/images/bg_night.png") center/cover fixed no-repeat;
 }
+
+body.theme-dark::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.25);
+    pointer-events: none;
+}
+
 
 /* Ограничиваем центральную область, как в Uber Eats / DoorDash */
 .page-wrapper {
@@ -24,7 +42,7 @@ body.theme-dark {
 
 /* Основной контейнер меню */
 .menu {
-    padding: 20px 0 40px;
+    padding: 10px 10px 40px;
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -56,3 +74,14 @@ body.theme-dark {
         padding: 0 24px;
     }
 }
+
+@media (min-width: 768px) {
+    .header,
+    .menu,
+    .footer {
+        max-width: 520px; /* вместо 640, чтобы не растягивалось слишком */
+        width: 520px;
+        margin-inline: auto;
+    }
+}
+

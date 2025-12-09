@@ -23,8 +23,8 @@
     top: 0;
     left: 0;
 
-    width: 300px;
-    height: 100vh;
+    width: 85vw;
+    max-width: 380px;
 
     background: rgba(255,255,255,0.65);
     backdrop-filter: blur(18px);
@@ -130,4 +130,11 @@ body.theme-dark .drawer__body a:hover {
 body.theme-dark .drawer__body a.active {
     background: rgba(255,255,255,0.16);
     color: #fff;
+}
+
+@media (min-width: 768px) {
+    .drawer {
+        width: 400px;
+        max-width: 420px;
+    }
 }

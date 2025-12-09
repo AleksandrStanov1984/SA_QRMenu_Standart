@@ -216,10 +216,23 @@ body.theme-dark .bar-accordion {
     margin-bottom: 18px; /* одинаковое расстояние для всех */
 }
 
+.category-section {
+    margin-top: 22px;
+}
+
 /* Последняя карточка — без отступа */
 .category-section .dish-card:last-child {
     margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+    .bar-accordion {
+        border-radius: 10px;
+        margin-inline: auto;
+        max-width: 520px;
+    }
+}
+
 
 
 

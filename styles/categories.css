@@ -61,6 +61,15 @@
     font-weight: 700;
 }
 
+.category-nav-btn span {
+    display: block;
+    max-width: 120px;
+    white-space: normal;
+    line-height: 1.1;
+    font-size: 13px;
+}
+
+
 /* ========================================================================= */
 /*                            DARK MODE STYLING                              */
 /* ========================================================================= */
