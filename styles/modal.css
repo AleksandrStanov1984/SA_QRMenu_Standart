@@ -37,6 +37,7 @@
     left: 0;
     width: 100%;
     max-height: 92vh;
+    height: 90vh;
 
     background: rgba(255,255,255,0.55);
     backdrop-filter: blur(18px) brightness(0.85);
@@ -46,6 +47,11 @@
     overflow: hidden;
     animation: modalSlideUp 0.18s ease-out;
     max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #ffffff;
 }
 
 body.theme-dark .dish-modal__content {
@@ -96,6 +102,8 @@ body.theme-dark .dish-modal__close {
 
     border-radius: 20px;
     overflow: hidden;
+
+    flex: 0 0 240px;    /* фиксированная высота */
 }
 
 .dish-modal__image-wrap.fallback {
@@ -117,11 +125,11 @@ body.theme-dark .dish-modal__image-wrap.fallback {
 /* ========================================================================= */
 
 .dish-modal__body {
-    padding: 22px;
-    padding-top: 26px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    overflow-y: auto;      /* СКРОЛЛ! */
+    padding: 14px 16px 20px;
 }
 
 /* Title */

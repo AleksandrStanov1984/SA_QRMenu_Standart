@@ -1,15 +1,39 @@
 {
   "categories": [
-    { "id": "salads", "type": "food", "icon": "🥗" },
-    { "id": "cold", "type": "food", "icon": "🍢" },
-    { "id": "meat", "type": "food", "icon": "🍖" },
-    { "id": "fish", "type": "food", "icon": "🐟" },
-    { "id": "desserts", "type": "food", "icon": "🍰" },
-    { "id": "cocktails", "type": "food", "icon": "🍸" },
+    {
+      "id": "salads",
+      "type": "food",
+      "icon": ""
+    },
+    {
+      "id": "cold",
+      "type": "food",
+      "icon": ""
+    },
+    {
+      "id": "meat",
+      "type": "food",
+      "icon": ""
+    },
+    {
+      "id": "fish",
+      "type": "food",
+      "icon": ""
+    },
+    {
+      "id": "desserts",
+      "type": "food",
+      "icon": ""
+    },
+    {
+      "id": "cocktails",
+      "type": "food",
+      "icon": ""
+    },
     {
       "id": "bar",
       "type": "bar",
-      "icon": "🥂",
+      "icon": "",
       "subcategories": [
         "softdrinks",
         "beer",

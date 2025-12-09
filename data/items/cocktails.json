@@ -1,46 +1,34 @@
 {
   "items": [
     {
-      "id": "cocktail_mojito",
-      "image": "resources/resources/assets/images/cocktails/mojito.jpg",
-      "labels": ["bestseller"]
+      "id": "mojito",
+      "image": "resources/assets/images/cocktails/mojito.jpg",
+      "vegetarian": false
     },
     {
-      "id": "cocktail_sex_on_the_beach",
-      "image": "resources/resources/assets/images/cocktails/sex_on_the_beach.jpg"
+      "id": "pina_colada",
+      "image": "resources/assets/images/cocktails/pina_colada.jpg",
+      "vegetarian": false
     },
     {
-      "id": "cocktail_mai_tai",
-      "image": "resources/resources/assets/images/cocktails/mai_tai.jpg"
+      "id": "aperol_spritz",
+      "image": "resources/assets/images/cocktails/aperol_spritz.jpg",
+      "vegetarian": false
     },
     {
-      "id": "cocktail_margarita",
-      "image": "resources/resources/assets/images/cocktails/margarita.jpg"
+      "id": "margarita",
+      "image": "resources/assets/images/cocktails/margarita.jpg",
+      "vegetarian": false
     },
     {
-      "id": "cocktail_blue_lagoon",
-      "image": "resources/resources/assets/images/cocktails/blue_lagoon.jpg"
+      "id": "sex_on_the_beach",
+      "image": "resources/assets/images/cocktails/sex_on_the_beach.jpg",
+      "vegetarian": false
     },
     {
-      "id": "cocktail_pinacolada",
-      "image": "resources/resources/assets/images/cocktails/pina_colada.jpg"
-    },
-    {
-      "id": "cocktail_aperol_spritz",
-      "image": "resources/resources/assets/images/cocktails/aperol_spritz.jpg",
-      "labels": ["new"]
-    },
-    {
-      "id": "cocktail_cuba_libre",
-      "image": "resources/resources/assets/images/cocktails/cuba_libre.jpg"
-    },
-    {
-      "id": "cocktail_negroni",
-      "image": "resources/resources/assets/images/cocktails/negroni.jpg"
-    },
-    {
-      "id": "cocktail_long_island",
-      "image": "resources/resources/assets/images/cocktails/long_island.jpg"
+      "id": "cosmopolitan",
+      "image": "resources/assets/images/cocktails/cosmopolitan.jpg",
+      "vegetarian": false
     }
   ]
 }

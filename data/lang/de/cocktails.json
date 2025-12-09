@@ -1,35 +1,55 @@
 {
-  "title": "Cocktails",
-  "items": {
-    "mojito": {
-      "name": "Mojito",
-      "short": "Frischer Cocktail mit Minze, Limette und Rum.",
-      "description": "Frischer Cocktail mit Minze, Limette und Rum. Ein leichter, erfrischender Drink mit intensivem Minzaroma und spritziger Zitrusnote."
-    },
-    "pina_colada": {
-      "name": "Piña Colada",
-      "short": "Süßer Cocktail mit Ananas, Kokos und Rum.",
-      "description": "Süßer und cremiger Cocktail mit Ananas, Kokos und Rum. Ein tropischer Klassiker mit weicher Textur und sommerlichem Geschmack."
-    },
-    "aperol_spritz": {
-      "name": "Aperol Spritz",
-      "short": "Aperitif mit Aperol, Prosecco und Soda.",
-      "description": "Erfrischender Aperitif mit Aperol, Prosecco und Soda. Leicht bitter, spritzig und perfekt für warme Tage."
-    },
-    "margarita": {
-      "name": "Margarita",
-      "short": "Klassischer Cocktail mit Tequila und Limette.",
-      "description": "Klassischer Cocktail aus Tequila, frischem Limettensaft und Orangenlikör. Frisch, kräftig und ikonisch."
-    },
-    "sex_on_the_beach": {
-      "name": "Sex on the Beach",
-      "short": "Fruchtiger Cocktail mit Pfirsichlikör und Wodka.",
-      "description": "Fruchtiger Cocktail mit Pfirsichlikör, Wodka, Orangensaft und Cranberry. Süß, leicht und sehr aromatisch."
-    },
-    "cosmopolitan": {
-      "name": "Cosmopolitan",
-      "short": "Cocktail mit Wodka, Limette und Cranberrysaft.",
-      "description": "Eleganter Cocktail mit Wodka, Limettensaft, Triple Sec und Cranberrysaft. Frisch, leicht säuerlich und mit klarer roter Farbe."
-    }
+  "mojito": {
+    "name": "Mojito",
+    "short": "Erfrischender Cocktail mit Minze, Limette und Rum.",
+    "description": "Ein erfrischender Cocktail aus frischer Minze, Limette und hellem Rum. Leicht, aromatisch und perfekt ausbalanciert mit einer klaren Zitrusnote.",
+    "price": "8,50 €",
+    "weight": "250 ml",
+    "allergens": []
+  },
+
+  "pina_colada": {
+    "name": "Pina Colada",
+    "short": "Süßer tropischer Cocktail mit Ananas und Kokos.",
+    "description": "Ein süßer und cremiger Cocktail aus Ananas, Kokos und Rum. Ein tropischer Klassiker mit weicher Textur und sommerlichem Geschmack.",
+    "price": "9,90 €",
+    "weight": "300 ml",
+    "allergens": ["G"]
+  },
+
+  "aperol_spritz": {
+    "name": "Aperol Spritz",
+    "short": "Aperitif mit Aperol, Prosecco und Sodawasser.",
+    "description": "Ein erfrischender, leicht bitterer Aperitif aus Aperol, Prosecco und Sodawasser. Spritzig, lebendig und ideal für warme Tage.",
+    "price": "7,90 €",
+    "weight": "200 ml",
+    "allergens": []
+  },
+
+  "margarita": {
+    "name": "Margarita",
+    "short": "Klassischer Cocktail mit Tequila und Limette.",
+    "description": "Ein klassischer Margarita mit Tequila, frisch gepresstem Limettensaft und Orangenlikör. Kräftig, erfrischend und ikonisch.",
+    "price": "8,90 €",
+    "weight": "200 ml",
+    "allergens": []
+  },
+
+  "sex_on_the_beach": {
+    "name": "Sex on the Beach",
+    "short": "Fruchtiger Cocktail mit Pfirsichlikör und Wodka.",
+    "description": "Ein fruchtiger Cocktail mit Pfirsichlikör, Wodka, Orangensaft und Cranberry. Süß, leicht und sehr aromatisch.",
+    "price": "8,90 €",
+    "weight": "250 ml",
+    "allergens": []
+  },
+
+  "cosmopolitan": {
+    "name": "Cosmopolitan",
+    "short": "Wodka-Cocktail mit Limette und Cranberry.",
+    "description": "Ein eleganter Cocktail aus Wodka, Limettensaft, Triple Sec und Cranberrysaft. Frisch, leicht säuerlich und mit einer intensiv leuchtenden Farbe.",
+    "price": "9,20 €",
+    "weight": "220 ml",
+    "allergens": []
   }
 }
