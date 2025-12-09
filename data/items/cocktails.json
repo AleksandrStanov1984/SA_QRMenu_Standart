@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "cocktail_mojito",
+      "image": "resources/resources/assets/images/cocktails/mojito.jpg",
+      "labels": ["bestseller"]
+    },
+    {
+      "id": "cocktail_sex_on_the_beach",
+      "image": "resources/resources/assets/images/cocktails/sex_on_the_beach.jpg"
+    },
+    {
+      "id": "cocktail_mai_tai",
+      "image": "resources/resources/assets/images/cocktails/mai_tai.jpg"
+    },
+    {
+      "id": "cocktail_margarita",
+      "image": "resources/resources/assets/images/cocktails/margarita.jpg"
+    },
+    {
+      "id": "cocktail_blue_lagoon",
+      "image": "resources/resources/assets/images/cocktails/blue_lagoon.jpg"
+    },
+    {
+      "id": "cocktail_pinacolada",
+      "image": "resources/resources/assets/images/cocktails/pina_colada.jpg"
+    },
+    {
+      "id": "cocktail_aperol_spritz",
+      "image": "resources/resources/assets/images/cocktails/aperol_spritz.jpg",
+      "labels": ["new"]
+    },
+    {
+      "id": "cocktail_cuba_libre",
+      "image": "resources/resources/assets/images/cocktails/cuba_libre.jpg"
+    },
+    {
+      "id": "cocktail_negroni",
+      "image": "resources/resources/assets/images/cocktails/negroni.jpg"
+    },
+    {
+      "id": "cocktail_long_island",
+      "image": "resources/resources/assets/images/cocktails/long_island.jpg"
+    }
+  ]
+}

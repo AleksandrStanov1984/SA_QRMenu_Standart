@@ -1,0 +1,246 @@
+/* ========================================================================= */
+/*                           DARK THEME — FIXED VERSION                      */
+/* ========================================================================= */
+
+/* ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ */
+body.theme-dark {
+    --text-dark: #f8fafc;
+    --bg-card-dark: rgba(0,0,0,0.45);      /* карточки */
+    --bg-blur-dark: rgba(0,0,0,0.35);      /* элементы UI */
+
+    color: var(--text-dark);
+    /* ФОН НЕ ТРОГАЕМ — ОСТАЁТСЯ bg_night.png */
+}
+
+/* Размытый тёмный фон поверх заднего изображения */
+body.theme-dark::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55); /* затемнение */
+    backdrop-filter: blur(8px);   /* размытие */
+    pointer-events: none;
+    z-index: 0;
+}
+
+
+/* ========================================================================= */
+/*                                HEADER DARK                                */
+/* ========================================================================= */
+
+body.theme-dark .header {
+    background: rgba(0,0,0,0.32);
+    backdrop-filter: blur(14px);
+}
+
+body.theme-dark .logo { color: #f1f5f9; }
+
+body.theme-dark .lang-btn {
+    color: #d1d5db;
+}
+
+body.theme-dark .lang-btn.active {
+    background: rgba(255,255,255,0.18);
+    color: #fff;
+}
+
+/* Burger */
+body.theme-dark .burger {
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+}
+
+/* Theme toggle */
+body.theme-dark .theme-toggle {
+    background: rgba(255,255,255,0.18);
+}
+
+body.theme-dark .theme-toggle__icon {
+    color: #fff;
+}
+
+/* ========================================================================= */
+/*                          CATEGORY NAV DARK                                */
+/* ========================================================================= */
+
+body.theme-dark .category-nav {
+    background: rgba(0,0,0,0.28);
+    backdrop-filter: blur(12px);
+}
+
+body.theme-dark .category-nav a {
+    color: #e2e8f0;
+}
+
+body.theme-dark .category-nav a.active {
+    background: rgba(255,255,255,0.18);
+    color: #fff;
+}
+
+/* ========================================================================= */
+/*                              MENU / CARDS DARK                            */
+/* ========================================================================= */
+
+body.theme-dark .menu-category-title {
+    color: #fff;
+}
+
+body.theme-dark .dish-card {
+    background: var(--bg-card-dark);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.55);
+}
+
+body.theme-dark .dish-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.75);
+}
+
+body.theme-dark .dish-card__description {
+    color: #cbd5e1;
+}
+
+/* ========================================================================= */
+/*                                 DRAWER DARK                                */
+/* ========================================================================= */
+
+body.theme-dark .drawer {
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(14px);
+}
+
+body.theme-dark .drawer__item {
+    color: #e2e8f0;
+}
+
+body.theme-dark .drawer__item:hover {
+    background: rgba(255,255,255,0.10);
+}
+
+body.theme-dark .drawer__close {
+    background: rgba(255,255,255,0.14);
+    color: #fff;
+}
+
+/* ========================================================================= */
+/*                                   MODAL DARK                               */
+/* ========================================================================= */
+
+body.theme-dark .dish-modal__content {
+    background: rgba(0,0,0,0.50);
+    backdrop-filter: blur(18px);
+}
+
+body.theme-dark .dish-modal__title,
+body.theme-dark .dish-modal__price {
+    color: #fff;
+}
+
+body.theme-dark .dish-modal__description {
+    color: #d1d5db;
+}
+
+body.theme-dark .dish-modal__close {
+    background: rgba(255,255,255,0.14);
+    color: #fff;
+}
+
+/* ========================================================================= */
+/*                                   FOOTER DARK                              */
+/* ========================================================================= */
+
+body.theme-dark .footer {
+    color: #e2e8f0;
+    opacity: 0.9;
+}
+
+body.theme-dark .footer__socials img {
+    opacity: 0.85;
+}
+
+body.theme-dark .footer__socials img:hover {
+    opacity: 1;
+}
+
+/* ========================================================================= */
+/*                          BAR / COCKTAILS DARK THEME                       */
+/* ========================================================================= */
+
+/* Заголовок секции Bar & Getränke */
+body.theme-dark .bar-group {
+    background: rgba(0,0,0,0.45);
+    border-radius: 12px;
+    margin-bottom: 14px;
+    backdrop-filter: blur(8px);
+    color: #f8fafc;
+}
+
+/* Кнопка аккордеона */
+body.theme-dark .bar-group-header {
+    background: rgba(0,0,0,0.35);
+    color: #f8fafc;
+    border: none;
+    padding: 14px 16px;
+    font-weight: 600;
+}
+
+body.theme-dark .bar-group-header:hover {
+    background: rgba(255,255,255,0.10);
+}
+
+/* Стрелка */
+body.theme-dark .bar-group-header::after,
+body.theme-dark .arrow {
+    color: #fff !important;
+}
+
+/* Контейнер открытого аккордеона */
+body.theme-dark .bar-group.open .bar-group-body {
+    background: rgba(0,0,0,0.25);
+}
+
+/* Элементы списка внутри аккордеона */
+body.theme-dark .bar-item {
+    color: #f1f5f9;
+    border-color: rgba(255,255,255,0.12);
+}
+
+body.theme-dark .bar-item span {
+    color: #f1f5f9;
+}
+
+/* Аккордеон бара в тёмной теме */
+body.theme-dark .bar-accordion {
+    background: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(8px);
+}
+
+/* Заголовки (Wein, Bier, etc.) */
+body.theme-dark .bar-accordion__header {
+    color: #f8fafc !important;
+    font-weight: 600;
+}
+
+/* Стрелка */
+body.theme-dark .bar-accordion__header .arrow {
+    color: #f8fafc !important;
+}
+
+/* Текущие элементы внутри */
+body.theme-dark .bar-item {
+    color: #e5e7eb !important;
+}
+
+body.theme-dark .dish-card__image-wrap.fallback {
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+}
+
+body.theme-dark .fallback-icon {
+    color: #f1f5f9;
+    opacity: 0.3;
+}
+
+
+
+
+
+
+

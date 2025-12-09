@@ -1,0 +1,55 @@
+{
+  "fish_grilled_salmon": {
+    "name": "Gegrillter Lachs",
+    "short": "Saftiges Lachsfilet mit Zitronenbutter.",
+    "description": "Saftig gegrilltes Lachsfilet, verfeinert mit aromatischer Zitronenbutter und serviert mit saisonalem Gemüse. Zart, frisch und reich an Geschmack.",
+    "price": "18,90 €",
+    "weight": "220 g",
+    "allergens": ["D", "G"]
+  },
+
+  "fish_cod_steak": {
+    "name": "Kabeljau-Steak",
+    "short": "Zartes Kabeljaufilet in Kräutersauce.",
+    "description": "Feines, zartes Kabeljaufilet, schonend gegart und umhüllt von einer leichten Kräuter-Sahnesauce. Perfekt für Liebhaber milder Fischgerichte.",
+    "price": "17,50 €",
+    "weight": "200 g",
+    "allergens": ["D", "G"]
+  },
+
+  "fish_fried_shrimps": {
+    "name": "Gebratene Garnelen",
+    "short": "Knoblauch-Garnelen in Olivenöl.",
+    "description": "Aromatische Garnelen, frisch gebraten in Olivenöl mit Knoblauch und Kräutern. Intensiver Geschmack und zarte Textur.",
+    "price": "14,90 €",
+    "weight": "160 g",
+    "allergens": ["B"]
+  },
+
+  "fish_tuna_steak": {
+    "name": "Thunfischsteak",
+    "short": "Medium gebratenes Thunfischsteak mit Sesam.",
+    "description": "Hochwertiges Thunfischsteak, außen scharf angebraten, innen zart rosa. Mit Sesam verfeinert und ideal für Fans asiatisch inspirierter Küche.",
+    "price": "19,90 €",
+    "weight": "210 g",
+    "allergens": ["D", "E"]
+  },
+
+  "fish_calamari": {
+    "name": "Calamari",
+    "short": "Knusprig frittierte Calamari mit Aioli.",
+    "description": "Goldbraun frittierte Calamari, knusprig außen und zart innen. Serviert mit cremiger Aioli – ein mediterraner Klassiker.",
+    "price": "13,90 €",
+    "weight": "180 g",
+    "allergens": ["B", "G"]
+  },
+
+  "fish_dorado": {
+    "name": "Dorade vom Grill",
+    "short": "Ganz gegrillte Dorade mit Kräutern.",
+    "description": "Frisch gegrillte ganze Dorade, gewürzt mit mediterranen Kräutern und leichtem Zitronenaroma. Ein aromatisches, gesundes Fischgericht.",
+    "price": "21,90 €",
+    "weight": "300 g",
+    "allergens": ["D"]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "id": "softdrinks",
+      "items": [
+        { "id": "cola_033", "price": "3,20 €" },
+        { "id": "cola_zero_033", "price": "3,20 €" },
+        { "id": "fanta_033", "price": "3,20 €" },
+        { "id": "sprite_033", "price": "3,20 €" },
+        { "id": "ice_tea_05", "price": "3,90 €" },
+        { "id": "lemonade_house", "price": "4,50 €" }
+      ]
+    },
+    {
+      "id": "beer",
+      "items": [
+        { "id": "lager_05", "price": "4,50 €" },
+        { "id": "weissbier_05", "price": "4,80 €" },
+        { "id": "pils_033", "price": "3,90 €" }
+      ]
+    },
+    {
+      "id": "wine",
+      "items": [
+        { "id": "white_house_02", "price": "5,90 €" },
+        { "id": "red_house_02", "price": "5,90 €" },
+        { "id": "prosecco_glass", "price": "6,50 €" }
+      ]
+    },
+    {
+      "id": "aperitifs",
+      "items": [
+        { "id": "aperol_spritz", "price": "7,50 €" },
+        { "id": "campari_orange", "price": "7,50 €" }
+      ]
+    },
+    {
+      "id": "spirits",
+      "items": [
+        { "id": "vodka_shot", "price": "3,50 €" },
+        { "id": "rum_shot", "price": "3,50 €" },
+        { "id": "whisky_shot", "price": "4,00 €" }
+      ]
+    },
+    {
+      "id": "hot",
+      "items": [
+        { "id": "espresso", "price": "2,20 €" },
+        { "id": "cappuccino", "price": "3,20 €" },
+        { "id": "latte_macchiato", "price": "3,50 €" },
+        { "id": "tea_pot", "price": "3,50 €" }
+      ]
+    },
+    {
+      "id": "water_juice",
+      "items": [
+        { "id": "water_still_05", "price": "3,50 €" },
+        { "id": "water_sparkling_05", "price": "3,50 €" },
+        { "id": "orange_juice_02", "price": "3,90 €" }
+      ]
+    }
+  ]
+}

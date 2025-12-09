@@ -1,0 +1,55 @@
+{
+  "meat_grill_mix": {
+    "name": "Mixed Grill Plate",
+    "short": "Grilled pork, chicken and beef selection.",
+    "description": "A hearty grill plate with pork, chicken and beef, served with herb butter and a side dish. Perfect for meat lovers.",
+    "price": "19,90 €",
+    "weight": "350 g",
+    "allergens": ["G"]
+  },
+
+  "meat_beef_steak": {
+    "name": "Beef Steak",
+    "short": "Juicy beef steak, medium grilled.",
+    "description": "A tender and juicy beef steak grilled to medium perfection. Rich flavor and ideal texture.",
+    "price": "23,90 €",
+    "weight": "320 g",
+    "allergens": []
+  },
+
+  "meat_chicken_fillet": {
+    "name": "Chicken Fillet",
+    "short": "Grilled chicken fillet with herb marinade.",
+    "description": "Juicy chicken fillet marinated in herbs and gently grilled. Light, flavorful and nutritious.",
+    "price": "14,90 €",
+    "weight": "250 g",
+    "allergens": []
+  },
+
+  "meat_pork_ribs": {
+    "name": "BBQ Spareribs",
+    "short": "Tender ribs glazed in BBQ sauce.",
+    "description": "Slow-cooked pork ribs glazed in smoky BBQ sauce. Tender, juicy and packed with flavor.",
+    "price": "17,90 €",
+    "weight": "400 g",
+    "allergens": ["A"]
+  },
+
+  "meat_beef_burger": {
+    "name": "Beef Burger",
+    "short": "Beef patty burger with salad and tomatoes.",
+    "description": "Classic beef burger with a juicy patty, fresh salad, tomatoes and a light sauce. A modern restaurant favorite.",
+    "price": "12,90 €",
+    "weight": "280 g",
+    "allergens": ["A", "G"]
+  },
+
+  "meat_cordon_bleu": {
+    "name": "Cordon Bleu",
+    "short": "Breaded schnitzel filled with cheese and ham.",
+    "description": "Crispy breaded pork schnitzel filled with ham and melted cheese. A classic, hearty and satisfying dish.",
+    "price": "15,90 €",
+    "weight": "300 g",
+    "allergens": ["A", "C", "G"]
+  }
+}

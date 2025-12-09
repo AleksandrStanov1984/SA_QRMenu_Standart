@@ -1,0 +1,110 @@
+/* ========================================================================= */
+/*                                   HEADER                                  */
+/* ========================================================================= */
+
+/* Верхняя панель */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 14px 18px;
+    backdrop-filter: blur(14px);
+    background: rgba(255,255,255,0.55);
+}
+
+body.theme-dark .header {
+    background: rgba(0,0,0,0.35);
+}
+
+/* Логотип / название */
+.header .logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+/* Правый блок (языки, темы, бургер) */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/* ======================= */
+/*       LANG SWITCH       */
+/* ======================= */
+.lang-switch {
+    display: flex;
+    gap: 4px;
+}
+
+.lang-btn {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.lang-btn.active {
+    background: rgba(0,0,0,0.1);
+}
+
+body.theme-dark .lang-btn.active {
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+}
+
+/* ======================= */
+/*     THEME TOGGLE        */
+/* ======================= */
+
+.theme-toggle {
+    padding: 4px 10px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.35);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.theme-dark .theme-toggle {
+    background: rgba(255,255,255,0.12);
+}
+
+.theme-toggle__icon {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* ======================= */
+/*         BURGER          */
+/* ======================= */
+
+.burger {
+    font-size: 26px;
+    padding: 6px 10px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.25);
+    cursor: pointer;
+    user-select: none;
+}
+
+.burger:hover {
+    background: rgba(255,255,255,0.35);
+}
+
+body.theme-dark .burger {
+    background: rgba(255,255,255,0.10);
+    color: #f1f5f9;
+}
+
+body.theme-dark .burger:hover {
+    background: rgba(255,255,255,0.18);
+}

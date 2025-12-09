@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA Digital Menus – Standard</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/categories.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/drawer.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/theme-dark.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="theme-light">
+
+<header class="header">
+    <div class="header-left">
+        <div class="logo">STANDARD</div>
+    </div>
+
+    <div class="header-right">
+        <div class="lang-switch">
+            <button class="lang-btn active" data-lang="de">DE</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Theme toggle">
+            <span class="theme-toggle__icon">☀️</span>
+        </button>
+
+        <button class="burger" id="burgerBtn" aria-label="Menu">
+            ☰
+        </button>
+    </div>
+</header>
+
+<!-- Burger drawer -->
+<nav class="drawer" id="drawer">
+    <div class="drawer__header">
+        <span class="drawer__title" data-i18n="menu">Menü</span>
+        <button class="drawer__close" id="drawerClose">✕</button>
+    </div>
+    <div class="drawer__body" id="drawerBody">
+        <!-- сюда JS подставит категории и подкатегории бара -->
+    </div>
+</nav>
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+<!-- Навигация по категориям (горизонтальный скролл) -->
+<nav class="category-nav" id="categoryNav"></nav>
+
+<main class="menu" id="menuContainer">
+    <!-- секции меню по категориям -->
+</main>
+
+<!-- Модальное окно блюда -->
+<div class="dish-modal" id="dishModal" aria-hidden="true">
+    <div class="dish-modal__backdrop" id="dishModalBackdrop"></div>
+    <div class="dish-modal__content">
+        <button class="dish-modal__close" id="dishModalClose">✕</button>
+        <div class="dish-modal__image-wrap" id="dishModalImageWrap">
+            <img id="dishModalImage" class="dish-modal__image">
+        </div>
+        <div class="dish-modal__body">
+            <div class="dish-modal__header-row">
+                <h2 class="dish-modal__title" id="dishModalTitle"></h2>
+                <span class="dish-modal__price" id="dishModalPrice"></span>
+            </div>
+            <div class="dish-modal__labels" id="dishModalLabels"></div>
+            <p class="dish-modal__description" id="dishModalDescription"></p>
+
+            <div class="dish-modal__meta">
+                <div class="dish-modal__meta-item">
+                    <span class="meta-label" data-i18n="weight">Portion</span>
+                    <span class="meta-value" id="dishModalWeight"></span>
+                </div>
+                <div class="dish-modal__meta-item">
+                    <span class="meta-label" data-i18n="allergens">Allergene</span>
+                    <span class="meta-value" id="dishModalAllergens"></span>
+                </div>
+                <div class="dish-modal__meta-item">
+                    <span class="meta-label" data-i18n="icons">Eigenschaften</span>
+                    <span class="meta-value" id="dishModalIcons"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__socials">
+        <a href="#"><img src="resources/assets/images/icons/facebook.svg" alt="facebook"></a>
+        <a href="#"><img src="resources/assets/images/icons/instagram.svg" alt="instagram"></a>
+        <a href="#"><img src="resources/assets/images/icons/whatsapp.svg" alt="whatsapp"></a>
+    </div>
+
+    <div class="footer__credits">
+        © Created with SA Digital Menus
+    </div>
+</footer>
+
+
+<script type="module" src="js/theme.js"></script>
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/language.js"></script>
+<script type="module" src="js/modal.js"></script>
+<script type="module" src="js/render.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "fish_grilled_salmon": {
+    "name": "Grilled Salmon",
+    "short": "Juicy salmon fillet with lemon butter.",
+    "description": "A tender grilled salmon fillet finished with aromatic lemon butter and seasonal vegetables. Light, fresh and full of flavor.",
+    "price": "18,90 €",
+    "weight": "220 g",
+    "allergens": ["D", "G"]
+  },
+
+  "fish_cod_steak": {
+    "name": "Cod Steak",
+    "short": "Tender cod fillet in herb sauce.",
+    "description": "Delicate cod fillet gently cooked and served with a mild herb cream sauce. Perfect for lovers of light fish dishes.",
+    "price": "17,50 €",
+    "weight": "200 g",
+    "allergens": ["D", "G"]
+  },
+
+  "fish_fried_shrimps": {
+    "name": "Fried Shrimps",
+    "short": "Garlic shrimps sautéed in olive oil.",
+    "description": "Aromatic shrimps sautéed in olive oil with garlic and herbs. Intensely flavorful with a tender bite.",
+    "price": "14,90 €",
+    "weight": "160 g",
+    "allergens": ["B"]
+  },
+
+  "fish_tuna_steak": {
+    "name": "Tuna Steak",
+    "short": "Medium-seared tuna steak with sesame.",
+    "description": "High-quality tuna steak, seared on the outside and tender pink inside. Refined with sesame and a touch of Asian influence.",
+    "price": "19,90 €",
+    "weight": "210 g",
+    "allergens": ["D", "E"]
+  },
+
+  "fish_calamari": {
+    "name": "Calamari",
+    "short": "Crispy fried calamari with aioli.",
+    "description": "Golden fried calamari — crispy on the outside, tender inside. Served with creamy aioli.",
+    "price": "13,90 €",
+    "weight": "180 g",
+    "allergens": ["B", "G"]
+  },
+
+  "fish_dorado": {
+    "name": "Grilled Dorado",
+    "short": "Whole grilled dorado with herbs.",
+    "description": "Whole dorado freshly grilled and seasoned with Mediterranean herbs. Aromatic, healthy and full of natural flavor.",
+    "price": "21,90 €",
+    "weight": "300 g",
+    "allergens": ["D"]
+  }
+}

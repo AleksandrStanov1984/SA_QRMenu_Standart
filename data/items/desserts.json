@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "dessert_cheesecake",
+      "image": "resources/resources/assets/images/desserts/cheesecake.jpg",
+      "labels": ["bestseller"]
+    },
+    {
+      "id": "dessert_tiramisu",
+      "image": "resources/resources/assets/images/desserts/tiramisu.jpg"
+    },
+    {
+      "id": "dessert_choco_fondant",
+      "image": "resources/resources/assets/images/desserts/choco_fondant.jpg"
+    },
+    {
+      "id": "dessert_panna_cotta",
+      "image": "resources/resources/assets/images/desserts/panna_cotta.jpg"
+    },
+    {
+      "id": "dessert_icecream_mix",
+      "image": "resources/resources/assets/images/desserts/icecream_mix.jpg"
+    },
+    {
+      "id": "dessert_creme_brulee",
+      "image": "resources/resources/assets/images/desserts/creme_brulee.jpg"
+    }
+  ]
+}

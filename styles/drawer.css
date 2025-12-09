@@ -1,0 +1,131 @@
+/* ========================================================================= */
+/*                                    DRAWER                                 */
+/* ========================================================================= */
+
+.drawer-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+    z-index: 140;
+}
+
+.drawer-backdrop.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* ---------- DRAWER PANEL ---------- */
+
+.drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 300px;
+    height: 100vh;
+
+    background: rgba(255,255,255,0.65);
+    backdrop-filter: blur(18px);
+
+    box-shadow: 4px 0 28px rgba(0,0,0,0.25);
+
+    transform: translateX(-100%);
+    transition: transform 0.28s cubic-bezier(.25,.8,.25,1);
+
+    z-index: 150;
+    padding: 22px 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.drawer.active {
+    transform: translateX(0);
+}
+
+/* Dark mode drawer */
+body.theme-dark .drawer {
+    background: rgba(0,0,0,0.45);
+    box-shadow: 4px 0 30px rgba(0,0,0,0.7);
+}
+
+/* ---------- HEADER INSIDE DRAWER ---------- */
+
+.drawer__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drawer__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.drawer__close {
+    font-size: 20px;
+    cursor: pointer;
+    background: rgba(0,0,0,0.08);
+    border: none;
+    border-radius: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+body.theme-dark .drawer__close {
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+}
+
+/* ========================================================================= */
+/*                            DRAWER CATEGORY LIST                           */
+/* ========================================================================= */
+
+.drawer__body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.drawer__body a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 8px;
+
+    border-radius: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+
+    transition: background 0.18s ease;
+}
+
+.drawer__body a:hover {
+    background: rgba(0,0,0,0.06);
+}
+
+body.theme-dark .drawer__body a:hover {
+    background: rgba(255,255,255,0.12);
+}
+
+/* Иконки категорий */
+.drawer-icon {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+/* активная ссылка */
+.drawer__body a.active {
+    background: rgba(0,0,0,0.1);
+    font-weight: 700;
+}
+
+body.theme-dark .drawer__body a.active {
+    background: rgba(255,255,255,0.16);
+    color: #fff;
+}

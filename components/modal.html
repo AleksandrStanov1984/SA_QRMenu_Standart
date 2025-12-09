@@ -1,0 +1,36 @@
+<div class="dish-modal" id="dishModal" aria-hidden="true">
+    <div class="dish-modal__backdrop" id="dishModalBackdrop"></div>
+
+    <div class="dish-modal__content">
+        <button class="dish-modal__close" id="dishModalClose">✕</button>
+
+        <div class="dish-modal__image-wrap" id="dishModalImageWrap">
+            <img id="dishModalImage" class="dish-modal__image">
+        </div>
+
+        <div class="dish-modal__body">
+            <div class="dish-modal__header-row">
+                <h2 class="dish-modal__title" id="dishModalTitle"></h2>
+                <span class="dish-modal__price" id="dishModalPrice"></span>
+            </div>
+
+            <div class="dish-modal__labels" id="dishModalLabels"></div>
+            <p class="dish-modal__description" id="dishModalDescription"></p>
+
+            <div class="dish-modal__meta">
+                <div class="dish-modal__meta-item">
+                    <span class="meta-label" data-i18n="weight">Portion</span>
+                    <span class="meta-value" id="dishModalWeight"></span>
+                </div>
+                <div class="dish-modal__meta-item">
+                    <span class="meta-label" data-i18n="allergens">Allergene</span>
+                    <span class="meta-value" id="dishModalAllergens"></span>
+                </div>
+                <div class="dish-modal__meta-item">
+                    <span class="meta-label" data-i18n="icons">Eigenschaften</span>
+                    <span class="meta-value" id="dishModalIcons"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

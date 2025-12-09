@@ -1,0 +1,32 @@
+{
+  "cola_033": { "name": "Coca-Cola 0,33 l" },
+  "cola_zero_033": { "name": "Coca-Cola Zero 0,33 l" },
+  "fanta_033": { "name": "Fanta 0,33 l" },
+  "sprite_033": { "name": "Sprite 0,33 l" },
+  "ice_tea_05": { "name": "Eistee 0,5 l" },
+  "lemonade_house": { "name": "Hausgemachte Limonade 0,5 l" },
+
+  "lager_05": { "name": "Helles Lager 0,5 l" },
+  "weissbier_05": { "name": "Weißbier 0,5 l" },
+  "pils_033": { "name": "Pils 0,33 l" },
+
+  "white_house_02": { "name": "Hauswein Weiß 0,2 l" },
+  "red_house_02": { "name": "Hauswein Rot 0,2 l" },
+  "prosecco_glass": { "name": "Prosecco im Glas" },
+
+  "aperol_spritz": { "name": "Aperol Spritz" },
+  "campari_orange": { "name": "Campari Orange" },
+
+  "vodka_shot": { "name": "Wodka 2 cl" },
+  "rum_shot": { "name": "Rum 2 cl" },
+  "whisky_shot": { "name": "Whisky 2 cl" },
+
+  "espresso": { "name": "Espresso" },
+  "cappuccino": { "name": "Cappuccino" },
+  "latte_macchiato": { "name": "Latte Macchiato" },
+  "tea_pot": { "name": "Tee im Kännchen" },
+
+  "water_still_05": { "name": "Mineralwasser still 0,5 l" },
+  "water_sparkling_05": { "name": "Mineralwasser spritzig 0,5 l" },
+  "orange_juice_02": { "name": "Orangensaft 0,2 l" }
+}

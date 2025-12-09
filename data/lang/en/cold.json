@@ -1,0 +1,55 @@
+{
+  "cold_beef_carpaccio": {
+    "name": "Beef Carpaccio",
+    "short": "Thinly sliced beef with arugula and parmesan.",
+    "description": "Tender, thinly sliced beef served with fresh arugula, parmesan and a light lemon–olive oil dressing. A refined and aromatic Italian classic.",
+    "price": "12,90 €",
+    "weight": "120 g",
+    "allergens": ["G"]
+  },
+
+  "cold_salmon_tartar": {
+    "name": "Salmon Tartare",
+    "short": "Fresh salmon tartare with dill and lime.",
+    "description": "Fine tartare made from fresh salmon, seasoned with dill, capers and lime. Light, elegant and perfect as a starter.",
+    "price": "11,50 €",
+    "weight": "100 g",
+    "allergens": ["D"]
+  },
+
+  "cold_bruschetta": {
+    "name": "Bruschetta",
+    "short": "Toasted bread with tomatoes and basil.",
+    "description": "Crispy toasted bread topped with fresh tomatoes, basil and high-quality olive oil. A vibrant Mediterranean appetizer.",
+    "price": "6,90 €",
+    "weight": "150 g",
+    "allergens": ["A"]
+  },
+
+  "cold_cheese_plate": {
+    "name": "Cheese Plate",
+    "short": "Selection of regional cheeses with grapes and nuts.",
+    "description": "A fine selection of regional cheeses, served with fresh grapes and nuts. Ideal with a glass of wine or as a light starter.",
+    "price": "9,90 €",
+    "weight": "180 g",
+    "allergens": ["G", "H"]
+  },
+
+  "cold_hummus": {
+    "name": "Hummus",
+    "short": "Chickpea cream with sesame and herbs.",
+    "description": "Smooth chickpea cream refined with sesame, olive oil and herbs. Vegan, aromatic and gently seasoned.",
+    "price": "7,50 €",
+    "weight": "150 g",
+    "allergens": ["E"]
+  },
+
+  "cold_olives": {
+    "name": "Marinated Olives",
+    "short": "House-marinated olives with herbs.",
+    "description": "Carefully marinated olives prepared with a blend of Mediterranean herbs. A simple and flavorful appetizer.",
+    "price": "4,90 €",
+    "weight": "120 g",
+    "allergens": []
+  }
+}

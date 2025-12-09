@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "salad_caesar",
+      "image": "resources/resources/assets/images/salads/caesar.jpg",
+      "labels": ["bestseller"],
+      "spicy": false,
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "id": "salad_greek",
+      "image": "resources/resources/assets/images/salads/greek.jpg",
+      "labels": ["new"],
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "id": "salad_tuna",
+      "image": "resources/resources/assets/images/salads/tuna.jpg",
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "id": "salad_fresh",
+      "image": "",
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "id": "salad_coleslaw",
+      "image": "resources/resources/assets/images/salads/coleslaw.jpg"
+    },
+    {
+      "id": "salad_mozzarella",
+      "image": "resources/resources/assets/images/salads/mozzarella.jpg",
+      "vegetarian": true
+    }
+  ]
+}

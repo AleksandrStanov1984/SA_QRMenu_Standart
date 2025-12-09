@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": "meat_grill_mix",
+      "image": "resources/assets/images/meat/meat.png",
+      "labels": ["bestseller"]
+    },
+    {
+      "id": "meat_beef_steak",
+      "image": "resources/assets/images/meat/meat.png"
+    },
+    {
+      "id": "meat_chicken_fillet",
+      "image": "resources/assets/images/meat/meat.png"
+    },
+    {
+      "id": "meat_pork_ribs",
+      "image": "resources/assets/images/meat/meat.png"
+    },
+    {
+      "id": "meat_beef_burger",
+      "image": "resources/assets/images/meat/meat.png",
+      "labels": ["new"]
+    },
+    {
+      "id": "meat_cordon_bleu",
+      "image": "resources/assets/images/meat/meat.png"
+    }
+  ]
+}

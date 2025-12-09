@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "fish_grilled_salmon",
+      "image": "resources/resources/assets/images/fish/grilled_salmon.jpg",
+      "labels": ["bestseller"]
+    },
+    {
+      "id": "fish_cod_steak",
+      "image": "resources/resources/assets/images/fish/cod_steak.jpg"
+    },
+    {
+      "id": "fish_fried_shrimps",
+      "image": "resources/resources/assets/images/fish/fried_shrimps.jpg"
+    },
+    {
+      "id": "fish_tuna_steak",
+      "image": "resources/resources/assets/images/fish/tuna_steak.jpg"
+    },
+    {
+      "id": "fish_calamari",
+      "image": "resources/resources/assets/images/fish/calamari.jpg"
+    },
+    {
+      "id": "fish_dorado",
+      "image": "resources/resources/assets/images/fish/dorado.jpg"
+    }
+  ]
+}

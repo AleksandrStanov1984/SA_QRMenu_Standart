@@ -1,0 +1,35 @@
+{
+  "title": "Cocktails",
+  "items": {
+    "mojito": {
+      "name": "Mojito",
+      "short": "Refreshing cocktail with mint, lime and rum.",
+      "description": "A refreshing cocktail made with fresh mint, lime and rum. Light, aromatic and perfectly balanced with a crisp citrus note."
+    },
+    "pina_colada": {
+      "name": "Pina Colada",
+      "short": "Sweet tropical cocktail with pineapple and coconut.",
+      "description": "A sweet and creamy cocktail made with pineapple, coconut and rum. A tropical classic with smooth texture and summer flavor."
+    },
+    "aperol_spritz": {
+      "name": "Aperol Spritz",
+      "short": "Aperitif with Aperol, Prosecco and soda.",
+      "description": "A refreshing and lightly bitter aperitif made with Aperol, Prosecco and soda water. Sparkling, vibrant and perfect for warm days."
+    },
+    "margarita": {
+      "name": "Margarita",
+      "short": "Classic cocktail with tequila and lime.",
+      "description": "A classic margarita made with tequila, fresh lime juice and orange liqueur. Bold, refreshing and iconic."
+    },
+    "sex_on_the_beach": {
+      "name": "Sex on the Beach",
+      "short": "Fruity cocktail with peach liqueur and vodka.",
+      "description": "A fruity cocktail combining peach liqueur, vodka, orange juice and cranberry. Sweet, light and very aromatic."
+    },
+    "cosmopolitan": {
+      "name": "Cosmopolitan",
+      "short": "Vodka cocktail with lime and cranberry.",
+      "description": "An elegant cocktail made with vodka, lime juice, triple sec and cranberry juice. Fresh, slightly sour and beautifully vibrant in color."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "categories": {
+    "salads": { "name": "Salads" },
+    "cold": { "name": "Cold Starters" },
+    "meat": { "name": "Meat Dishes" },
+    "fish": { "name": "Fish Dishes" },
+    "desserts": { "name": "Desserts" },
+    "cocktails": { "name": "Cocktails" },
+    "bar": { "name": "Bar & Drinks" }
+  },
+  "barSubcategories": {
+    "softdrinks": "Soft Drinks",
+    "beer": "Beer",
+    "wine": "Wine",
+    "aperitifs": "Aperitifs",
+    "spirits": "Spirits",
+    "hot": "Hot Drinks",
+    "water_juice": "Water & Juices"
+  }
+}

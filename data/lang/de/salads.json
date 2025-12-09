@@ -1,0 +1,55 @@
+{
+  "salad_caesar": {
+    "name": "Caesar Salat mit Hähnchen",
+    "short": "Römersalat mit Hähnchen, Parmesan und Croutons.",
+    "description": "Frischer Caesar Salat mit zarter Hähnchenbrust, Römersalat, Parmesan und knusprigen Croutons. Abgerundet mit cremigem Caesar-Dressing – ein Klassiker mit ausgewogenem Geschmack.",
+    "price": "11,90 €",
+    "weight": "320 g",
+    "allergens": ["A", "C", "G"]
+  },
+
+  "salad_greek": {
+    "name": "Griechischer Salat",
+    "short": "Tomaten, Gurken, Paprika, Oliven und Feta.",
+    "description": "Frischer griechischer Salat mit Tomaten, Gurken, Paprika, Oliven und cremigem Feta, verfeinert mit hochwertigem Olivenöl. Aromatisch, leicht und mediterran.",
+    "price": "9,50 €",
+    "weight": "280 g",
+    "allergens": ["G"]
+  },
+
+  "salad_tuna": {
+    "name": "Thunfischsalat",
+    "short": "Gemischter Salat mit Thunfisch und Mais.",
+    "description": "Reichhaltiger gemischter Salat mit Thunfisch, Mais, knackigem Gemüse und leichtem Dressing. Sättigend und frisch zugleich.",
+    "price": "10,90 €",
+    "weight": "300 g",
+    "allergens": ["D"]
+  },
+
+  "salad_fresh": {
+    "name": "Frischer Gartensalat",
+    "short": "Saisonales Gemüse mit Essig-Öl-Dressing.",
+    "description": "Knackiger Gartensalat aus saisonalem Gemüse, serviert mit mildem Essig-Öl-Dressing. Ideal als leichte Beilage oder Vorspeise.",
+    "price": "7,90 €",
+    "weight": "260 g",
+    "allergens": []
+  },
+
+  "salad_coleslaw": {
+    "name": "Coleslaw",
+    "short": "Krautsalat mit Karotten und Mayonnaise.",
+    "description": "Klassischer amerikanischer Coleslaw mit fein geschnittenem Weißkraut, Karotten und cremiger Mayonnaise. Frisch, mild und ideal zu Fleischgerichten.",
+    "price": "5,90 €",
+    "weight": "200 g",
+    "allergens": ["C", "G"]
+  },
+
+  "salad_mozzarella": {
+    "name": "Mozzarella mit Tomaten",
+    "short": "Tomaten, Mozzarella und Basilikum.",
+    "description": "Caprese-artiger Salat mit Mozzarella, reifen Tomaten, frischem Basilikum und hochwertigem Olivenöl. Einfach, frisch und sehr aromatisch.",
+    "price": "8,90 €",
+    "weight": "240 g",
+    "allergens": ["G"]
+  }
+}

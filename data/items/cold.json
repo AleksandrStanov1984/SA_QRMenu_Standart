@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "id": "cold_beef_carpaccio",
+      "image": "resources/resources/assets/images/cold/carpaccio.jpg",
+      "labels": ["bestseller"]
+    },
+    {
+      "id": "cold_salmon_tartar",
+      "image": "resources/resources/assets/images/cold/salmon_tartar.jpg"
+    },
+    {
+      "id": "cold_bruschetta",
+      "image": "resources/resources/assets/images/cold/bruschetta.jpg",
+      "vegetarian": true
+    },
+    {
+      "id": "cold_cheese_plate",
+      "image": "resources/resources/assets/images/cold/cheese_plate.jpg",
+      "vegetarian": true
+    },
+    {
+      "id": "cold_hummus",
+      "image": "resources/resources/assets/images/cold/hummus.jpg",
+      "vegan": true,
+      "vegetarian": true
+    },
+    {
+      "id": "cold_olives",
+      "image": "",
+      "vegan": true,
+      "vegetarian": true
+    }
+  ]
+}

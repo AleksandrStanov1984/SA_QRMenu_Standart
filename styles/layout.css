@@ -1,0 +1,58 @@
+/* ========================================================================= */
+/*                                 LAYOUT                                    */
+/* ========================================================================= */
+
+
+body {
+    background: url("../resources/assets/images/bg_day.png") center/cover no-repeat;
+}
+
+body.theme-light {
+    background: url("../resources/assets/images/bg_day.png") center/cover fixed no-repeat;
+}
+
+body.theme-dark {
+    background: url("../resources/assets/images/bg_night.png") center/cover fixed no-repeat;
+}
+
+/* Ограничиваем центральную область, как в Uber Eats / DoorDash */
+.page-wrapper {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Основной контейнер меню */
+.menu {
+    padding: 20px 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+/* iOS стиль больших заголовков */
+.section-title {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 8px 0 4px;
+}
+
+/* Категории в меню — отступы сверху */
+.menu-category-block {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Плавность всех UI элементов */
+* {
+    transition: 0.18s ease;
+}
+
+/* Ограничение ширины изображений и карточек */
+@media (min-width: 860px) {
+    .page-wrapper {
+        padding: 0 24px;
+    }
+}

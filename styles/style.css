@@ -1,0 +1,293 @@
+/* ========================================================================= */
+/*                                GLOBAL STYLES                              */
+/* ========================================================================= */
+
+:root {
+    --radius-lg: 16px;
+    --radius-md: 12px;
+    --radius-sm: 8px;
+
+    --text-light: #0f172a;
+    --text-dark: #f8fafc;
+
+    --card-bg-light: rgba(255,255,255,0.55);
+    --card-bg-dark: rgba(0,0,0,0.45);
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: var(--text-light);
+}
+
+body.theme-dark {
+    color: var(--text-dark);
+}
+
+/* ========================================================================= */
+/*                                   HEADER                                  */
+/* ========================================================================= */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.65);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+body.theme-dark .header {
+    background: rgba(0,0,0,0.35);
+}
+
+/* ====== BURGER IMPROVED ====== */
+.burger {
+    font-size: 22px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.2);
+}
+
+body.theme-dark .burger {
+    background: rgba(255,255,255,0.08);
+    color: #f1f5f9;
+}
+
+.burger:hover {
+    background: rgba(255,255,255,0.30);
+}
+
+/* ========================================================================= */
+/*                               THEME TOGGLE                                */
+/* ========================================================================= */
+
+.theme-toggle {
+    padding: 4px 10px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.35);
+    cursor: pointer;
+}
+
+body.theme-dark .theme-toggle {
+    background: rgba(255,255,255,0.10);
+}
+
+.theme-toggle__icon {
+    font-size: 18px;
+}
+
+/* ========================================================================= */
+/*                             CATEGORY NAV (TOP)                             */
+/* ========================================================================= */
+
+.category-nav {
+    position: sticky;
+    top: 56px;
+    z-index: 45;
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+    padding: 10px 14px;
+    background: inherit;
+}
+
+.category-nav a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: var(--text-light);
+    white-space: nowrap;
+}
+
+.category-nav a.active {
+    background: rgba(0,0,0,0.08);
+}
+
+/* ===== DARK MODE FIX ===== */
+body.theme-dark .category-nav a {
+    color: #e5e7eb !important;
+}
+
+body.theme-dark .category-nav a.active {
+    background: rgba(255,255,255,0.15) !important;
+    color: #ffffff !important;
+}
+
+/* ========================================================================= */
+/*                                   MENU                                    */
+/* ========================================================================= */
+
+.menu {
+    padding: 16px;
+}
+
+.menu-category-title,
+h2, h3 {
+    margin: 14px 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ===== dark mode category headers ===== */
+body.theme-dark h2,
+body.theme-dark h3,
+body.theme-dark .menu-category-title {
+    color: #f1f5f9 !important;
+}
+
+/* ========================================================================= */
+/*                               DISH CARDS                                   */
+/* ========================================================================= */
+
+.dish-card {
+    background: var(--card-bg-light);
+    border-radius: var(--radius-lg);
+    padding: 12px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 12px;
+    backdrop-filter: blur(10px);
+}
+
+body.theme-dark .dish-card {
+    background: var(--card-bg-dark);
+}
+
+.dish-card__image-wrap {
+    width: 110px;
+    height: 90px;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dish-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ========================================================================= */
+/*                                   DRAWER                                  */
+/* ========================================================================= */
+
+.drawer {
+    position: fixed;
+    inset: 0;
+    width: 280px;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(12px);
+    transform: translateX(-100%);
+    transition: 0.25s ease;
+    padding: 20px;
+    box-shadow: 4px 0 24px rgba(0,0,0,0.25);
+    z-index: 100;
+}
+
+.drawer.active {
+    transform: translateX(0);
+}
+
+body.theme-dark .drawer {
+    background: rgba(0,0,0,0.45);
+}
+
+.drawer__body a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.drawer__body a:hover {
+    opacity: 0.8;
+}
+
+/* ========================================================================= */
+/*                                   FOOTER                                   */
+/* ========================================================================= */
+
+.footer {
+    text-align: center;
+    padding: 12px 0;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
+.footer__socials img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.8;
+}
+
+.footer__socials img:hover {
+    opacity: 1;
+}
+
+/* ========================================================================= */
+/*                                   MODAL                                   */
+/* ========================================================================= */
+
+.dish-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: none;
+}
+
+.dish-modal.active {
+    display: block;
+}
+
+.dish-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.75);
+}
+
+.dish-modal__content {
+    position: absolute;
+    inset: auto 0 0 0;
+    background: #ffffff;
+    max-height: 92vh;
+    border-radius: 24px 24px 0 0;
+    overflow: hidden;
+    animation: modalSlideUp 0.18s ease-out;
+}
+
+body.theme-dark .dish-modal__content {
+    background: #020617;
+    color: var(--text-dark);
+}
+
+.dish-modal__image-wrap {
+    width: 100%;
+    height: 240px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dish-modal__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes modalSlideUp {
+    from { transform: translateY(30px); opacity: 0.6; }
+    to   { transform: translateY(0);   opacity: 1; }
+}

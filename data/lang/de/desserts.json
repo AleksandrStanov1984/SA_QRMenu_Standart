@@ -1,0 +1,55 @@
+{
+  "dessert_cheesecake": {
+    "name": "New York Cheesecake",
+    "short": "Cremiger Käsekuchen mit Vanille und Beeren.",
+    "description": "Cremiger New York Cheesecake mit feiner Vanillenote, serviert mit frischer Beerenauce. Ein klassischer, besonders zarter Dessertgenuss.",
+    "price": "6,90 €",
+    "weight": "140 g",
+    "allergens": ["A", "C", "G"]
+  },
+
+  "dessert_tiramisu": {
+    "name": "Tiramisu",
+    "short": "Klassisches Tiramisu mit Mascarpone und Espresso.",
+    "description": "Original italienisches Tiramisu mit cremiger Mascarpone, kräftigem Espresso und fein geschichtetem Löffelbiskuit.",
+    "price": "7,20 €",
+    "weight": "150 g",
+    "allergens": ["A", "C", "F", "G"]
+  },
+
+  "dessert_choco_fondant": {
+    "name": "Schoko-Fondant",
+    "short": "Warmer Schokokuchen mit flüssigem Kern.",
+    "description": "Warmer Schokoladen-Fondant mit weichem, geschmolzenem Kern. Serviert mit Vanilleeis für ein perfektes Dessert-Duo.",
+    "price": "7,90 €",
+    "weight": "130 g",
+    "allergens": ["A", "C", "G"]
+  },
+
+  "dessert_panna_cotta": {
+    "name": "Panna Cotta",
+    "short": "Sahnige Panna Cotta mit Beerensauce.",
+    "description": "Sahnige italienische Panna Cotta, traditionell zubereitet und mit einer frischen, fruchtigen Beerensauce serviert.",
+    "price": "6,50 €",
+    "weight": "120 g",
+    "allergens": ["G"]
+  },
+
+  "dessert_icecream_mix": {
+    "name": "Eiscreme Trio",
+    "short": "Drei Sorten Eis nach Wahl.",
+    "description": "Feines Eiscreme-Trio mit drei Sorten nach Wahl. Cremig, erfrischend und perfekt als Abschluss eines Menüs.",
+    "price": "5,90 €",
+    "weight": "110 g",
+    "allergens": ["G"]
+  },
+
+  "dessert_creme_brulee": {
+    "name": "Crème Brûlée",
+    "short": "Französisches Dessert mit Karamellkruste.",
+    "description": "Klassische französische Crème Brûlée mit einer perfekt karamellisierten, knusprigen Zuckerkruste und samtiger Vanillecreme.",
+    "price": "6,90 €",
+    "weight": "130 g",
+    "allergens": ["C", "G"]
+  }
+}

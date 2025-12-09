@@ -1,0 +1,55 @@
+{
+  "salad_caesar": {
+    "name": "Caesar Salad with Chicken",
+    "short": "Romaine lettuce with chicken, parmesan and croutons.",
+    "description": "Fresh Caesar salad with tender chicken breast, romaine lettuce, parmesan and crispy croutons. Finished with creamy Caesar dressing.",
+    "price": "11,90 €",
+    "weight": "320 g",
+    "allergens": ["A", "C", "G"]
+  },
+
+  "salad_greek": {
+    "name": "Greek Salad",
+    "short": "Tomatoes, cucumbers, peppers, olives and feta.",
+    "description": "A refreshing Greek salad with tomatoes, cucumbers, peppers, olives and creamy feta, refined with high-quality olive oil.",
+    "price": "9,50 €",
+    "weight": "280 g",
+    "allergens": ["G"]
+  },
+
+  "salad_tuna": {
+    "name": "Tuna Salad",
+    "short": "Mixed salad with tuna and corn.",
+    "description": "A hearty mixed salad with tuna, corn and fresh vegetables, finished with a light dressing.",
+    "price": "10,90 €",
+    "weight": "300 g",
+    "allergens": ["D"]
+  },
+
+  "salad_fresh": {
+    "name": "Fresh Garden Salad",
+    "short": "Seasonal vegetables with vinegar-oil dressing.",
+    "description": "A crisp garden salad made with seasonal vegetables, served with a mild vinegar-oil dressing. Light and refreshing.",
+    "price": "7,90 €",
+    "weight": "260 g",
+    "allergens": []
+  },
+
+  "salad_coleslaw": {
+    "name": "Coleslaw",
+    "short": "Cabbage salad with carrots and mayonnaise.",
+    "description": "Classic American coleslaw with finely shredded cabbage, carrots and creamy mayonnaise. Fresh and mild.",
+    "price": "5,90 €",
+    "weight": "200 g",
+    "allergens": ["C", "G"]
+  },
+
+  "salad_mozzarella": {
+    "name": "Mozzarella with Tomatoes",
+    "short": "Tomatoes, mozzarella and basil.",
+    "description": "A Caprese-style salad with mozzarella, ripe tomatoes, fresh basil and olive oil. Simple, fresh and full of aroma.",
+    "price": "8,90 €",
+    "weight": "240 g",
+    "allergens": ["G"]
+  }
+}

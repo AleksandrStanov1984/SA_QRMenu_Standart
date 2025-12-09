@@ -1,0 +1,49 @@
+/* ========================================================================= */
+/*                                  BASE                                     */
+/* ========================================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Inter", sans-serif;
+    color: #0f172a;
+    background: var(--bg-main);
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --radius-xl: 24px;
+    --radius-lg: 18px;
+    --radius-md: 12px;
+    --radius-sm: 8px;
+
+    --text-light: #0f172a;
+    --text-dark: #f8fafc;
+
+    --bg-main: #f5f6f8;
+    --bg-blur-light: rgba(255,255,255,0.55);
+    --bg-blur-dark: rgba(0,0,0,0.45);
+    --bg-card-light: rgba(255,255,255,0.75);
+    --bg-card-dark: rgba(255,255,255,0.08);
+}
+
+body.theme-dark {
+    --bg-main: #0b0e14;
+    color: var(--text-dark);
+}
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+/* контент должен быть поверх размытого слоя */
+body > * {
+    position: relative;
+    z-index: 2;
+}
+

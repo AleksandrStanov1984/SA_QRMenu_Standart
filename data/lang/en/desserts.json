@@ -1,0 +1,55 @@
+{
+  "dessert_cheesecake": {
+    "name": "New York Cheesecake",
+    "short": "Creamy cheesecake with vanilla and berries.",
+    "description": "A creamy New York cheesecake with a fine hint of vanilla, served with fresh berry sauce. A rich and elegant dessert classic.",
+    "price": "6,90 €",
+    "weight": "140 g",
+    "allergens": ["A", "C", "G"]
+  },
+
+  "dessert_tiramisu": {
+    "name": "Tiramisu",
+    "short": "Italian classic with mascarpone and espresso.",
+    "description": "Original Italian tiramisu with creamy mascarpone, strong espresso and soft ladyfingers layered to perfection.",
+    "price": "7,20 €",
+    "weight": "150 g",
+    "allergens": ["A", "C", "F", "G"]
+  },
+
+  "dessert_choco_fondant": {
+    "name": "Chocolate Fondant",
+    "short": "Warm chocolate cake with molten center.",
+    "description": "Warm chocolate fondant with a soft, molten core. Served with vanilla ice cream for an irresistible contrast.",
+    "price": "7,90 €",
+    "weight": "130 g",
+    "allergens": ["A", "C", "G"]
+  },
+
+  "dessert_panna_cotta": {
+    "name": "Panna Cotta",
+    "short": "Classic Italian cream dessert with berries.",
+    "description": "Traditional Italian panna cotta made from sweet cream and finished with a fruity berry sauce.",
+    "price": "6,50 €",
+    "weight": "120 g",
+    "allergens": ["G"]
+  },
+
+  "dessert_icecream_mix": {
+    "name": "Ice Cream Trio",
+    "short": "Three ice cream flavors of your choice.",
+    "description": "A trio of three ice cream flavors of your choice. Creamy, refreshing and ideal after any meal.",
+    "price": "5,90 €",
+    "weight": "110 g",
+    "allergens": ["G"]
+  },
+
+  "dessert_creme_brulee": {
+    "name": "Crème Brûlée",
+    "short": "French dessert with caramelized crust.",
+    "description": "Classic French crème brûlée with a perfectly caramelized sugar crust and silky vanilla cream underneath.",
+    "price": "6,90 €",
+    "weight": "130 g",
+    "allergens": ["C", "G"]
+  }
+}

@@ -1,0 +1,227 @@
+/* ========================================================================= */
+/*                                 MENU BASE                                 */
+/* ========================================================================= */
+
+.menu {
+    padding: 24px 0 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* Заголовок категории внутри меню */
+.menu-category-title {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+}
+
+body.theme-dark .menu-category-title {
+    color: #f1f5f9;
+}
+
+/* ========================================================================= */
+/*                               DISH CARD                                   */
+/* ========================================================================= */
+
+.dish-card {
+    display: flex;
+    gap: 16px;
+    padding: 18px;
+
+    border-radius: 22px;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(14px);
+
+    box-shadow: 0 6px 18px rgba(15,15,15,0.07);
+
+    cursor: pointer;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* Dark mode карточка */
+body.theme-dark .dish-card {
+    background: rgba(0,0,0,0.35);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+}
+
+/* Hover эффект */
+.dish-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+}
+
+body.theme-dark .dish-card:hover {
+    box-shadow: 0 8px 22px rgba(0,0,0,0.75);
+}
+
+/* ========================================================================= */
+/*                              DISH IMAGE                                   */
+/* ========================================================================= */
+
+.dish-card__image-wrap {
+    width: 150px;
+    height: 120px;
+
+    border-radius: 18px;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Light fallback */
+.dish-card__image-wrap.fallback {
+    background: linear-gradient(145deg, #e5e7eb, #cbd5e1);
+}
+
+/* Dark fallback */
+body.theme-dark .dish-card__image-wrap.fallback {
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+}
+
+.dish-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ========================================================================= */
+/*                               DISH INFO                                    */
+/* ========================================================================= */
+
+.dish-card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+/* Название */
+.dish-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+/* Описание */
+.dish-card__description {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 6px;
+    line-height: 1.35;
+}
+
+/* Цена */
+.dish-card__price {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+
+/* ========================================================================= */
+/*                           SPICY / VEGAN ICONS                              */
+/* ========================================================================= */
+
+.dish-card__icons {
+    font-size: 16px;
+    margin-top: 6px;
+    opacity: 0.9;
+}
+
+
+
+/* ===== BAR ACCORDIONS ===== */
+
+.bar-accordion {
+    border-radius: 12px;
+    background: rgba(255,255,255,0.5);
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.25s ease;
+}
+
+body.theme-dark .bar-accordion {
+    background: rgba(0,0,0,0.3);
+}
+
+.bar-accordion__header {
+    width: 100%;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.bar-accordion .arrow {
+    font-size: 22px;
+    transition: transform 0.25s ease;
+}
+
+.bar-accordion.open .arrow {
+    transform: rotate(180deg);
+}
+
+.bar-accordion__body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 16px;
+    transition: max-height 0.3s ease;
+}
+
+.bar-accordion.open .bar-accordion__body {
+    max-height: 500px;
+    padding-bottom: 12px;
+}
+
+.bar-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 15px;
+}
+
+/* Центрируем всё меню по центру экрана */
+#menuContainer {
+    max-width: 420px;      /* идеальный размер под мобильные */
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* Fallback-картинка должна занимать весь блок */
+.dish-card__image-wrap.fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(145deg, #e5e7eb, #cbd5e1);
+    position: relative;
+}
+
+/* Иконка заглушки — большая */
+.fallback-icon {
+    font-size: 48px;
+    opacity: 0.35;
+}
+
+/* Фикс одинаковых расстояний между карточками */
+.dish-card {
+    margin-bottom: 18px; /* одинаковое расстояние для всех */
+}
+
+/* Последняя карточка — без отступа */
+.category-section .dish-card:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+

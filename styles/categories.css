@@ -1,0 +1,79 @@
+/* ========================================================================= */
+/*                             CATEGORY NAV (TOP)                            */
+/* ========================================================================= */
+
+.category-nav {
+    position: sticky;
+    top: 64px; /* ниже хедера */
+    z-index: 80;
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 16px 8px 16px;
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.55);
+
+    scrollbar-width: none; /* Firefox */
+}
+
+.category-nav::-webkit-scrollbar {
+    display: none;
+}
+
+/* Категория */
+.category-nav a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 6px 14px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+
+    border-radius: 12px;
+    text-decoration: none;
+    color: #1e293b;
+
+    transition: 0.18s ease;
+}
+
+/* Иконка категории */
+.category-icon {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Hover */
+.category-nav a:hover {
+    background: rgba(0,0,0,0.06);
+}
+
+/* Активная категория */
+.category-nav a.active {
+    background: rgba(0,0,0,0.10);
+    color: #000;
+    font-weight: 700;
+}
+
+/* ========================================================================= */
+/*                            DARK MODE STYLING                              */
+/* ========================================================================= */
+
+body.theme-dark .category-nav {
+    background: rgba(0,0,0,0.35);
+}
+
+body.theme-dark .category-nav a {
+    color: #e2e8f0;
+}
+
+body.theme-dark .category-nav a.active {
+    background: rgba(255,255,255,0.18);
+    color: #ffffff;
+}

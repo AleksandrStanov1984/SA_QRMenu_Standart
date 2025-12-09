@@ -1,0 +1,55 @@
+{
+  "cold_beef_carpaccio": {
+    "name": "Rinder-Carpaccio",
+    "short": "Dünn geschnittenes Rindfleisch mit Rucola und Parmesan.",
+    "description": "Zartes, dünn geschnittenes Rindfleisch serviert mit frischem Rucola, Parmesan und Zitronen-Olivenöl. Ein leichter, aromatischer Klassiker der italienischen Küche.",
+    "price": "12,90 €",
+    "weight": "120 g",
+    "allergens": ["G"]
+  },
+
+  "cold_salmon_tartar": {
+    "name": "Lachs-Tatar",
+    "short": "Frisches Lachs-Tatar mit Dill und Limette.",
+    "description": "Feines Tatar aus frischem Lachs, abgeschmeckt mit Dill, Kapern und Limette. Leicht, elegant und perfekt als Vorspeise.",
+    "price": "11,50 €",
+    "weight": "100 g",
+    "allergens": ["D"]
+  },
+
+  "cold_bruschetta": {
+    "name": "Bruschetta",
+    "short": "Geröstetes Brot mit Tomaten und Basilikum.",
+    "description": "Knusprig geröstetes Brot, belegt mit frischen Tomaten, Basilikum und hochwertigem Olivenöl. Ein mediterraner Klassiker.",
+    "price": "6,90 €",
+    "weight": "150 g",
+    "allergens": ["A"]
+  },
+
+  "cold_cheese_plate": {
+    "name": "Käseplatte",
+    "short": "Regionale Käsesorten mit Trauben und Nüssen.",
+    "description": "Auswahl feinster regionaler Käsesorten, serviert mit frischen Trauben und Nüssen. Perfekt zum Wein oder als leichte Vorspeise.",
+    "price": "9,90 €",
+    "weight": "180 g",
+    "allergens": ["G", "H"]
+  },
+
+  "cold_hummus": {
+    "name": "Hummus",
+    "short": "Kichererbsencreme mit Olivenöl und Sesam.",
+    "description": "Cremiger Hummus aus Kichererbsen, verfeinert mit Sesam, Kräutern und hochwertigem Olivenöl. Vegan und aromatisch.",
+    "price": "7,50 €",
+    "weight": "150 g",
+    "allergens": ["E"]
+  },
+
+  "cold_olives": {
+    "name": "Marinierte Oliven",
+    "short": "Hausgemachte Oliven mit Kräutern.",
+    "description": "Sorgfältig marinierte Oliven nach Hausrezept, verfeinert mit mediterranen Kräutern. Ideal als kleine Vorspeise.",
+    "price": "4,90 €",
+    "weight": "120 g",
+    "allergens": []
+  }
+}

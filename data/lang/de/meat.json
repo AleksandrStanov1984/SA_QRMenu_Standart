@@ -1,0 +1,55 @@
+{
+  "meat_grill_mix": {
+    "name": "Grillteller",
+    "short": "Gemischter Teller mit Schwein, Hähnchen und Rind.",
+    "description": "Großer Grillteller mit einer Auswahl aus gegrilltem Schwein, Hähnchen und Rind, serviert mit Kräuterbutter und Beilage. Kräftig, aromatisch und ideal für Fleischliebhaber.",
+    "price": "19,90 €",
+    "weight": "350 g",
+    "allergens": ["G"]
+  },
+
+  "meat_beef_steak": {
+    "name": "Rindersteak",
+    "short": "Saftiges Rindersteak, medium gegrillt.",
+    "description": "Zartes und saftiges Rindersteak, perfekt medium gegrillt. Intensiver Geschmack und ideale Konsistenz für Steakliebhaber.",
+    "price": "23,90 €",
+    "weight": "320 g",
+    "allergens": []
+  },
+
+  "meat_chicken_fillet": {
+    "name": "Hähnchenfilet",
+    "short": "Gegrilltes Hähnchenfilet in Kräutermarinade.",
+    "description": "Saftiges Hähnchenfilet, in aromatischer Kräutermarinade eingelegt und schonend gegrillt. Mild, proteinreich und sehr beliebt.",
+    "price": "14,90 €",
+    "weight": "250 g",
+    "allergens": []
+  },
+
+  "meat_pork_ribs": {
+    "name": "BBQ Spareribs",
+    "short": "Zarte Schweinerippchen in BBQ-Sauce.",
+    "description": "Langsam gegarte, besonders zarte Schweinerippchen, glasiert in würziger BBQ-Sauce. Rauchig, saftig und voller Geschmack.",
+    "price": "17,90 €",
+    "weight": "400 g",
+    "allergens": ["A"]
+  },
+
+  "meat_beef_burger": {
+    "name": "Beef Burger",
+    "short": "Burger mit Rindfleisch-Patty, Salat und Tomaten.",
+    "description": "Klassischer Beef Burger mit saftigem Rindfleisch-Patty, frischem Salat, Tomaten und leichter Sauce. Ein moderner Restaurant-Favorit.",
+    "price": "12,90 €",
+    "weight": "280 g",
+    "allergens": ["A", "G"]
+  },
+
+  "meat_cordon_bleu": {
+    "name": "Cordon Bleu",
+    "short": "Gefülltes Schnitzel mit Käse und Schinken.",
+    "description": "Knusprig paniertes Schweineschnitzel, gefüllt mit Schinken und geschmolzenem Käse. Klassisch, herzhaft und sehr beliebt.",
+    "price": "15,90 €",
+    "weight": "300 g",
+    "allergens": ["A", "C", "G"]
+  }
+}

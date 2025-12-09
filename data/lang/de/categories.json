@@ -1,0 +1,20 @@
+{
+  "categories": {
+    "salads": { "name": "Salate" },
+    "cold": { "name": "Kalte Vorspeisen" },
+    "meat": { "name": "Fleischgerichte" },
+    "fish": { "name": "Fischgerichte" },
+    "desserts": { "name": "Desserts" },
+    "cocktails": { "name": "Cocktails" },
+    "bar": { "name": "Bar & Getränke" }
+  },
+  "barSubcategories": {
+    "softdrinks": "Softdrinks",
+    "beer": "Bier",
+    "wine": "Wein",
+    "aperitifs": "Aperitifs",
+    "spirits": "Spirituosen",
+    "hot": "Heiße Getränke",
+    "water_juice": "Wasser & Säfte"
+  }
+}
