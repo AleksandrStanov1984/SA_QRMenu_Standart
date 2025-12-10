@@ -1,19 +1,40 @@
 <header class="header">
     <div class="header-left">
-        <div class="logo">STANDARD</div>
+        <div class="logo">STANDARD PLUS</div>
     </div>
 
     <div class="header-right">
-        <div class="lang-switch">
-            <button class="lang-btn active" data-lang="de">DE</button>
-            <button class="lang-btn" data-lang="en">EN</button>
-            <button class="lang-btn" data-lang="ru">RU</button>
+
+        <!-- WEATHER + STATUS -->
+        <div class="weather-box">
+            <span id="weather-icon">☀️</span>
+            <span id="weather-temp">--°C</span>
+            <div id="restaurant-status" class="status-indicator"></div>
+
         </div>
 
+        <!-- LANG SWITCH -->
+        <div class="lang-dropdown">
+            <button class="theme-toggle lang-toggle" id="langDropdownBtn" aria-label="Language">
+        <span class="theme-toggle__icon">
+            🌐
+        </span>
+            </button>
+
+            <div class="lang-dropdown-list" id="langDropdownList">
+                <div class="lang-option" data-lang="de">DE</div>
+                <div class="lang-option" data-lang="en">EN</div>
+                <div class="lang-option" data-lang="ru">RU</div>
+            </div>
+        </div>
+
+
+        <!-- THEME SWITCH -->
         <button class="theme-toggle" id="themeToggle" aria-label="Theme toggle">
             <span class="theme-toggle__icon">☀️</span>
         </button>
 
+        <!-- BURGER -->
         <button class="burger" id="burgerBtn" aria-label="Menu">
             ☰
         </button>

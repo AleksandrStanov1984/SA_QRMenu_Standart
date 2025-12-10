@@ -1,0 +1,23 @@
+{
+  "timezone": "Europe/Berlin",
+
+  "schedule": {
+    "mon": [{ "open": "08:00", "close": "23:00" }],
+    "tue": [{ "open": "08:00", "close": "23:00" }],
+    "wed": [{ "open": "08:00", "close": "23:00" }],
+    "thu": [{ "open": "08:00", "close": "23:00" }],
+    "fri": [{ "open": "08:00", "close": "23:00" }],
+    "sat": [{ "open": "10:00", "close": "23:00" }],
+    "sun": [{ "open": "10:00", "close": "23:00" }]
+  },
+
+  "breaks": {
+    "mon": [],
+    "tue": [],
+    "wed": [{ "open": "12:00", "close": "15:00" }, { "open": "18:00", "close": "23:00" }],
+    "thu": [],
+    "fri": [],
+    "sat": [],
+    "sun": []
+  }
+}

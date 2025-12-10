@@ -1,5 +1,7 @@
 // language.js
 
+// language.js
+
 let currentLang = localStorage.getItem("lang") || "de";
 
 export function getCurrentLang() {
@@ -7,35 +9,54 @@ export function getCurrentLang() {
 }
 
 export function initLanguageSwitcher(onChange) {
-    const langButtons = document.querySelectorAll(".lang-btn");
+    const dropdownBtn = document.getElementById("langDropdownBtn");
+    const dropdownList = document.getElementById("langDropdownList");
+    const langOptions = document.querySelectorAll(".lang-option");
 
-    // Активируем текущую кнопку при загрузке
-    langButtons.forEach((btn) => {
-        btn.classList.toggle("active", btn.dataset.lang === currentLang);
+    // Активируем язык при загрузке
+    langOptions.forEach(option => {
+        option.classList.toggle("active", option.dataset.lang === currentLang);
     });
 
-    langButtons.forEach((btn) => {
-        btn.addEventListener("click", () => {
-            const lang = btn.dataset.lang;
+    // Открыть / закрыть список
+    dropdownBtn.addEventListener("click", () => {
+        dropdownList.style.display =
+            dropdownList.style.display === "block" ? "none" : "block";
+    });
+
+    // Закрытие при клике вне списка
+    document.addEventListener("click", (e) => {
+        if (!dropdownBtn.contains(e.target) && !dropdownList.contains(e.target)) {
+            dropdownList.style.display = "none";
+        }
+    });
+
+    // Выбор языка
+    langOptions.forEach(option => {
+        option.addEventListener("click", () => {
+            const lang = option.dataset.lang;
             if (lang === currentLang) return;
 
             currentLang = lang;
 
-            // Сохраняем язык между сессиями
-            localStorage.setItem("lang", currentLang);
-
-            // Переключаем активную кнопку
-            langButtons.forEach((b) =>
-                b.classList.toggle("active", b.dataset.lang === currentLang)
+            // Подсветка активного языка
+            langOptions.forEach(o =>
+                o.classList.toggle("active", o.dataset.lang === lang)
             );
 
-            // Вызываем обновление рендера
+            // Сохраняем выбор
+            localStorage.setItem("lang", currentLang);
+
+            // Обновляем меню
             if (typeof onChange === "function") {
                 onChange(currentLang);
             }
+
+            dropdownList.style.display = "none";
         });
     });
 }
+
 
 // Загрузка переводов категорий
 export async function loadCategoryTranslations(lang) {

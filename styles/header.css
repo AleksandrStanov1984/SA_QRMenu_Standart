@@ -108,3 +108,144 @@ body.theme-dark .burger {
 body.theme-dark .burger:hover {
     background: rgba(255,255,255,0.18);
 }
+
+
+/* ======================= */
+/*         WEATHER          */
+/* ======================= */
+
+.weather-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+#weather-icon {
+    font-size: 16px;
+}
+
+.open-status {
+    color: #27ae60; /* зелёный */
+    font-weight: 600;
+}
+
+.closed-status {
+    color: #e74c3c; /* красный */
+    font-weight: 600;
+}
+
+/* ======================= */
+/*   language dropdown     */
+/* ======================= */
+
+/* Основной контейнер */
+.lang-dropdown {
+    position: relative;
+}
+
+/* Сам выпадающий список */
+.lang-dropdown-list {
+    position: absolute;
+    top: 42px;
+    right: 0;
+    padding: 6px 0;
+    border-radius: 12px;
+    min-width: 70px;
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+
+    display: none;
+    z-index: 3000;
+
+    animation: dropdownFade 0.15s ease-out;
+}
+
+/* Светлая тема */
+body.theme-light .lang-dropdown-list {
+    background: rgba(255,255,255,0.8);
+    color: #000;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Тёмная тема */
+body.theme-dark .lang-dropdown-list {
+    background: rgba(25,25,25,0.82);
+    color: #f0f0f0;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.lang-option {
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.15s;
+}
+
+body.theme-light .lang-option:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+body.theme-dark .lang-option:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+.lang-option.active {
+    font-weight: 700;
+}
+
+/* Анимация появления */
+@keyframes dropdownFade {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ======================= */
+/*                         */
+/* ======================= */
+
+/* открыт */
+.status-open {
+    background: #2ecc71;
+    box-shadow: 0 0 6px #2ecc71;
+}
+
+/* скоро закрывается */
+.status-warning {
+    background: #f1c40f;
+    box-shadow: 0 0 6px #f1c40f;
+}
+
+/* закрыт */
+.status-closed {
+    background: #e74c3c;
+    box-shadow: 0 0 6px #e74c3c;
+}
+
+.status-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    margin-left: 6px;
+}
+
+
+
+
+
+
+
+

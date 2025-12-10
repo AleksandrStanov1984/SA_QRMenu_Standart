@@ -33,6 +33,14 @@
 
 <!-- JS -->
 <script type="module" src="js/ui-loader.js"></script>
+<script type="module">
+    import { initWeather } from "./js/weather.js";
+    import { initRestaurantStatus } from "./js/status.js";
+
+    initWeather();
+    initRestaurantStatus();
+</script>
+
 
 
 </body>
