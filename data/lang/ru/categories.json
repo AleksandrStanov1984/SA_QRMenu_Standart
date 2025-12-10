@@ -1,0 +1,20 @@
+{
+  "categories": {
+    "salads": { "name": "Салаты" },
+    "cold": { "name": "Холодные закуски" },
+    "meat": { "name": "Мясные блюда" },
+    "fish": { "name": "Рыбные блюда" },
+    "desserts": { "name": "Десерты" },
+    "cocktails": { "name": "Коктейли" },
+    "bar": { "name": "Бар и напитки" }
+  },
+  "barSubcategories": {
+    "softdrinks": "Безалкогольные напитки",
+    "beer": "Пиво",
+    "wine": "Вино",
+    "aperitifs": "Аперитивы",
+    "spirits": "Крепкий алкоголь",
+    "hot": "Горячие напитки",
+    "water_juice": "Вода и соки"
+  }
+}

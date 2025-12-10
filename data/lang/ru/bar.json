@@ -1,0 +1,32 @@
+{
+  "cola_033": { "name": "Coca-Cola 0,33 л" },
+  "cola_zero_033": { "name": "Coca-Cola Zero 0,33 л" },
+  "fanta_033": { "name": "Fanta 0,33 л" },
+  "sprite_033": { "name": "Sprite 0,33 л" },
+  "ice_tea_05": { "name": "Холодный чай 0,5 л" },
+  "lemonade_house": { "name": "Домашний лимонад 0,5 л" },
+
+  "lager_05": { "name": "Светлое пиво 0,5 л" },
+  "weissbier_05": { "name": "Пшеничное пиво 0,5 л" },
+  "pils_033": { "name": "Пилс 0,33 л" },
+
+  "white_house_02": { "name": "Домашнее белое вино 0,2 л" },
+  "red_house_02": { "name": "Домашнее красное вино 0,2 л" },
+  "prosecco_glass": { "name": "Просекко (бокал)" },
+
+  "aperol_spritz": { "name": "Апероль Шприц" },
+  "campari_orange": { "name": "Кампари Оранж" },
+
+  "vodka_shot": { "name": "Водка 2 cl" },
+  "rum_shot": { "name": "Ром 2 cl" },
+  "whisky_shot": { "name": "Виски 2 cl" },
+
+  "espresso": { "name": "Эспрессо" },
+  "cappuccino": { "name": "Капучино" },
+  "latte_macchiato": { "name": "Латте Макиато" },
+  "tea_pot": { "name": "Чай в чайнике" },
+
+  "water_still_05": { "name": "Минеральная вода негаз. 0,5 л" },
+  "water_sparkling_05": { "name": "Минеральная вода газ. 0,5 л" },
+  "orange_juice_02": { "name": "Апельсиновый сок 0,2 л" }
+}
